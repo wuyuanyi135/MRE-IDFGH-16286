@@ -1,0 +1,7 @@
+menu "UniLAB BT"
+    config MY_NIMBLE_BT_ENABLED
+    bool "Enable"
+    default n
+    select
+
+endmenu
