@@ -1,0 +1,5 @@
+dependencies:
+  my_nimble:
+    path: ../../../my_nimble
+    rules:
+      - if: target == "esp32c3"
